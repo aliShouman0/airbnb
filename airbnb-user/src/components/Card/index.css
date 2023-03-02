@@ -1,0 +1,36 @@
+.card {
+  width: 20rem;
+  height: 25rem;
+}
+
+.card .imagesView {
+  width: 90%;
+  height: 70%;
+  margin: 10px;
+}
+
+.card .imagesView img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+}
+
+.description {
+  margin: 10px;
+}
+
+.description .location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.description .location p:nth-child(1) {
+  width: 60%;
+}
+
+.description .date{
+  
+}
