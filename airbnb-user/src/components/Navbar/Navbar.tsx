@@ -1,19 +1,22 @@
 import React from "react";
-import logo from "../../assests/logo.png";
+import logo from "../../assets/logo.png";
+import Search from "../Search/Search";
+import AccountSetting from "../AccountSetting/AccountSetting";
 import "./index.css";
 
-function Navbar() {
+const Navbar: React.FC = () => {
   return (
-    <nav className="container">
+    <nav className="navbar ">
       <div className="logo">
         <img src={logo} alt="logo" />
         <div className="title">
           <span>airbnb</span>
         </div>
       </div>
-      <div className="search"></div>
+      <Search />
+      <AccountSetting/>
     </nav>
   );
-}
+};
 
 export default Navbar;
