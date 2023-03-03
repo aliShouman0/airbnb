@@ -21,6 +21,7 @@ function Card({ images }: PropsType) {
         </div>
         <div className="date"><p>Mar 2-7</p></div>
         <div className="price"><p>$87 night</p></div>
+        <div className="price"><p>$87 night</p></div>
 
       </div>
     </div>
