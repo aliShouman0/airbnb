@@ -17,6 +17,7 @@
 
 .description {
   margin: 10px;
+  font-weight: bold;
 }
 
 .description .location {
@@ -24,13 +25,23 @@
   align-items: center;
   justify-content: space-between;
   padding: 5px;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .description .location p:nth-child(1) {
   width: 60%;
 }
 
-.description .date{
-  
+.description .date {
+  padding: 5px;
+  font-weight: lighter;
+  color: rgb(128, 128, 128);
+
+}
+
+.description .price {
+  padding: 5px;
+  margin: 5px 0;
+  font-weight: lighter;
+
 }
