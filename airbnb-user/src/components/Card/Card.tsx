@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { faHeart, faStar } from "@fortawesome/free-solid-svg-icons";
 import "./index.css";
 
 type PropsType = { images: string[] };
@@ -11,6 +11,9 @@ function Card({ images }: PropsType) {
     <div className="card">
       <div className="imagesView">
         <img src={images[imageNb]} alt="home" />
+        <div className="heart">
+          <FontAwesomeIcon icon={faHeart} size={"xl"}/>
+        </div>
       </div>
       <div className="description">
         <div className="location">
@@ -20,9 +23,7 @@ function Card({ images }: PropsType) {
           </p>
         </div>
         <div className="date"><p>Mar 2-7</p></div>
-        <div className="price"><p>$87 night</p></div>
-        <div className="price"><p>$87 night</p></div>
-
+        <div className="price"><p>$87 night</p></div> 
       </div>
     </div>
   );
